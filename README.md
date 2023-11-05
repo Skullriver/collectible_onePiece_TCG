@@ -7,6 +7,8 @@ of CCG cards as NFT, create a marketplace for players to exchange NFT, and run a
 ## Demo
 
 
+https://github.com/Skullriver/collectible_onePiece_TCG/assets/47433536/fb670431-8291-4651-ab39-64a7a1e78e84
+
 
 # Installation
 
