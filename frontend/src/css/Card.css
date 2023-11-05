@@ -1,0 +1,68 @@
+.card-block {
+    width: calc(20% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    max-width: 215px;
+    max-height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.card > img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-block .sell-button {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    border: 1px solid #76bafa;
+    color: #76bafa;
+}
+
+.card-block .sell-button:hover {
+    background: #76bafa;
+    color: #fff;
+}
+
+.card-block .buy-button {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    border: 1px solid black;
+    color: black;
+}
+
+.card-block .buy-button:hover {
+    background: black;
+    color: #fff;
+}
+
+.owner-text-card {
+    font-size: 12px;
+}
+
+.owner-text-card span {
+    font-size: 14px;
+}
+
+.you-owner {
+    color: #76bafa;
+}
